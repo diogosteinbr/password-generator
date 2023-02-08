@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --green-1: #40d476;
+  --green-2: #10b981;
+  --text-primary: #ffffff;
+  --text-secondary: #d5d4d8;
+  --dark: #273549;
+  --darkest: #1f2937;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.main-container {
+  width: 600px;
+  background-color: var(--darkest);
+  padding: 64px 40px;
+}
+
+.main-container h1 {
+  font-size: 48px;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+span {
+  color: var(--green-1);
+}
+
+#paragraph {
+  font-size: 24px;
+  color: var(--text-secondary);
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 17px;
+  color: var(--text-primary);
+  background-color: var(--green-2);
+  border: none;
+  padding: 12px 28px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--green-1);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--dark);
+  margin-bottom: 32px;
+}
+
+.passwords-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.password {
+  font-size: 19px;
+  width: 50%;
+  height: 64px;
+  color: var(--green-1);
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
